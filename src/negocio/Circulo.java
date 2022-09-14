@@ -7,13 +7,15 @@ public class Circulo extends FormaGeometrica{
 	
 	
 	
-	public Circulo(Ponto centro, float raio) {
-		super();
+	public Circulo(Ponto centro, float raio, String corDaLinha, String corDoFundo) {
+		super(corDaLinha, corDoFundo);
 		this.centro = centro;
 		this.raio = raio;
 	}
 
-	public Circulo() {}
+	public Circulo() {
+		super();
+	}
 
 	@Override
 	public double calcularArea() {

@@ -4,8 +4,8 @@ public class Quadrado extends FormaGeometrica{
 	private Ponto vertice1;
 	private Ponto vertice2;
 
-	public Quadrado(Ponto vertice1, Ponto vertice2) {
-		super();
+	public Quadrado(Ponto vertice1, Ponto vertice2, String corDaLinha, String corDoFundo) {
+		super(corDaLinha, corDoFundo);
 		this.vertice1 = vertice1;
 		this.vertice2 = vertice2;
 	}
